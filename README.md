@@ -1,10 +1,10 @@
-# 🚧 Synthetic Image Augmentation for Pothole Detection Under Adverse Irish Weather Conditions
+# 🚧🦺  Synthetic Image Augmentation for Pothole Detection Under Adverse Irish Weather Conditions
 
 > Exploring the viability of synthetic images to improve pothole detection under adverse conditions — towards an efficient, real-time pothole detector specifically suited to the Irish climate.
 
 **Author:** Cian Spillane — Gaelcholáiste Carraig Uí Leighin  
 **Competition:** BT Young Scientist and Technology Exhibition 2025  
-**Preprint:** *Available on request — ArXiv submission in progress*
+**Preprint:** *ArXiv submission in progress*
 
 ---
 
@@ -172,27 +172,6 @@ Three adverse conditions were selected in consultation with **Met Éireann meteo
 ├── results/               # Evaluation metrics and result tables
 └── README.md
 ```
-
----
-
-## 📚 References
-
-- Wang, C. Y., et al. (2022). YOLOv7: Trainable bag-of-freebies sets new state-of-the-art for real-time object detectors.
-- Zhu, J. Y., et al. (2017). Unpaired image-to-image translation using cycle-consistent adversarial networks (CycleGAN).
-- Liu, M. Y., et al. (2017). Unsupervised image-to-image translation networks (UNIT). NVIDIA Research.
-- Isola, P., et al. (2017). Image-to-image translation with conditional adversarial networks (Pix2Pix).
-- Tan, M., & Le, Q. V. (2019). EfficientNet: Rethinking model scaling for convolutional neural networks.
-- Huber, W., & Rothmeier, T. Object detection performance under adverse weather conditions.
-
----
-
-## 👤 Author
-
-**Cian Spillane**  
-Gaelcholáiste Carraig Uí Leighin, Cork, Ireland  
-BT Young Scientist and Technology Exhibition 2025  
-
-*Independent research conducted at age 16.*
 
 ---
 
