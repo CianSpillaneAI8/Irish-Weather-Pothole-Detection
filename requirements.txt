@@ -1,5 +1,39 @@
-torch
-ultralytics
-opencv-python
-matplotlib
-numpy
+# ─────────────────────────────────────────────
+# Irish Pothole Detection — Requirements
+# All notebooks run on Google Colab (Python 3.10+)
+# Install with: pip install -r requirements.txt
+# ─────────────────────────────────────────────
+
+# ── Core ──────────────────────────────────────
+numpy>=1.23.5
+pandas>=1.5.3
+matplotlib>=3.4.3
+Pillow>=9.0.0
+scipy>=1.7.3
+scikit-image>=0.18.3
+opencv-python>=4.5.3.56
+tqdm>=4.64.1
+
+# ── Deep Learning ─────────────────────────────
+torch>=1.11.0
+torchvision>=0.12.0
+tensorflow>=2.10.0          # Foggy-CycleGAN (Keras/TF based)
+
+# ── YOLO ──────────────────────────────────────
+ultralytics>=8.0.0          # YOLOv11 training & inference
+
+# ── Image-to-Image Translation ────────────────
+# Foggy-CycleGAN uses TensorFlow/Keras (included above)
+# Day2Night uses PyTorch (included above)
+# CycleGAN (rain) uses PyTorch (included above)
+gdown>=4.6.0                # Downloading pretrained weights from Google Drive
+
+# ── Utilities ─────────────────────────────────
+imutils>=0.5.4
+imageio>=2.11.0
+moviepy>=1.0.3
+dominate>=2.6.0
+PyYAML>=5.4.1
+requests>=2.26.0
+beautifulsoup4>=4.12.3
+tensorboardX>=2.4
