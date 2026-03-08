@@ -1,0 +1,39 @@
+# ─────────────────────────────────────────────
+# YOLOv7-D6 Dataset Configuration
+# Irish Pothole Detection — BTYSTE 2025
+# Update the paths below to match your Google Drive structure
+# ─────────────────────────────────────────────
+
+# Dataset paths (update to your Google Drive paths)
+train: /content/drive/MyDrive/Dataset/Training/images
+val:   /content/drive/MyDrive/Dataset/Validation/images
+test:  /content/drive/MyDrive/Dataset/Testing/images
+
+# Number of classes
+nc: 2
+
+# Class names
+names:
+  0: pothole
+  1: background
+
+# ─────────────────────────────────────────────
+# Dataset breakdown (for reference):
+#
+# Training (802 images — hybrid dataset):
+#   - 256 real images (Annotated Pothole Dataset, Kaggle)
+#   - 272 real images (Pothole Detection Dataset, GitHub)
+#   - 100 synthetic fog images (Foggy-CycleGAN)
+#   - 100 synthetic low-light images (Day2Night UNIT/VGG16)
+#   -  74 synthetic rain images (custom CycleGAN)
+#
+# Validation (52 images — ~10% of training):
+#   - 24 from Annotated Pothole Dataset
+#   - 28 from Pothole Detection Dataset
+#
+# Testing (455 images):
+#   - 150 Cranfield (TU Dublin) — clear, varied distances
+#   -  80 Dublin (TU Dublin)    — daylight + low-light
+#   -  75 Stereo/Non-Stereo     — generalisation test
+#   - 150 Annotated Water & Dry — wet/damp conditions
+# ─────────────────────────────────────────────
