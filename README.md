@@ -24,7 +24,6 @@ irish-pothole-detection/
 │   │
 │   ├── 2_lowlight_generation/
 │   │   ├── day2night_unit_vgg.ipynb            # Day2Night UNIT/VGG: clear → night images (v1)
-│   │   └── day2night_unit_vgg_v2.ipynb         # Day2Night UNIT/VGG: clear → night images (v2)
 │   │
 │   └── 3_detection/
 │       ├── yolov7_training.ipynb               # YOLOv7-D6 training on real/synthetic/hybrid datasets
