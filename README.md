@@ -1,7 +1,7 @@
 # 🚧 Irish Pothole Detection under Adverse Conditions
 ### Exploring the viability of synthetic images to improve pothole detection
 
-> **BTYSTE 2025** · Cian Spillane · Gaelcholáiste Carraig Uí Léighin
+> **BTYSTE 2025** · Cian Spillane · Gaelcholáiste Carraig Uí Léighin · Preprint in progress(stay tuned)
 
 ---
 
